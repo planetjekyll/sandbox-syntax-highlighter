@@ -22,6 +22,7 @@ pre {
   color: white;
   background-color: black;
   padding: 1em;
+  border-radius: 5px;
 }
 
 pre > code {
