@@ -9,8 +9,11 @@ title: Welcome
     - Code Blocks in Lists or Nested Lists
     - Code Blocks with Options (e.g. `lineno`)
     - Code Blocks with Escapes (e.g. `{{raw}}{{..}}{{endraw}}`)
-- Inline Code (e.g. `\`code\``)
+- Inline Code (e.g. `code`)
 - Highlight Tag (e.g. `{{raw}}{{highlight}}{{endraw}}`)
+
+
+<!--todo: check how to escape  -  ```  and `code`  -->
 
 
 ### _config.yml  Settings

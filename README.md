@@ -1,2 +1,4 @@
-# jekyll-syntax-highlighter
-syntax highlighter sandbox / examples
+
+syntax highlighter sandbox / examples;
+see  @ [`henrythemes.github.io/jekyll-syntax-highlighter` »](http://henrythemes.github.io/jekyll-syntax-highlighter)
+
