@@ -1,4 +1,5 @@
 ---
+layout: default
 title: Welcome
 ---
 
@@ -6,7 +7,7 @@ title: Welcome
 ## Syntax Highlighter Examples
 
 - Code Blocks (e.g. \`\`\`)
-    - Code Blocks in Lists or Nested Lists
+    - [Code Blocks in Lists or Nested Lists](lists.html)
     - Code Blocks with Options (e.g. `lineno`)
     - Code Blocks with Escapes (e.g. `{{raw}}{{..}}{{endraw}}`)
 - Inline Code (e.g. `code`)

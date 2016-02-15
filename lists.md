@@ -1,4 +1,5 @@
 ---
+layout: default
 title: Code Blocks in Lists or Nested Lists
 ---
 
