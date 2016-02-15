@@ -37,14 +37,18 @@ Code
 More Code
 ```
 
-3. This is the start of a new bullet list. Hey, where is my fenced code? ```
+3. This is the start of a new bullet list. Hey, where is my fenced code?
+
+```
 Code
 More Code
 ```
 
 4. Maybe we can do it with indenting?
+
     Code
     More Code
+
 5. Did that work? No, so we will try with separation:
 
     Code
@@ -56,6 +60,7 @@ More Code
        More Code
 
 7.  Well that was disappointing. How about we indent and use backticks together?
+
        ```
        Code
        More Code
