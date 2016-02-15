@@ -1,6 +1,6 @@
 
 /*********************
- * code
+ * inline code
  */
 
 code {
@@ -10,6 +10,10 @@ code {
   color: maroon;  /* dark-ish red */
 }
 
+
+/*********************
+ * code block (e.g. pre > code)
+ */
 
 pre {
 /*  border: 1px solid #E5E5E5;
@@ -23,5 +27,6 @@ pre {
 pre > code {
   padding: 0;
   border: none;
+  color: inherit;
   background-color: inherit;
 }
