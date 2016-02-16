@@ -2,8 +2,8 @@
 title: Debug
 ---
 
-```
-site settings:
+
+## Site Settings:
 
 {{ site | jsonify }}
-```
+
