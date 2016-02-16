@@ -1,24 +1,24 @@
 ---
-title: Debug
+title: Debug Settings
 ---
 
-### Markdown Settings
+## Markdown Settings
 
 {{ site.markdown | jsonify }}
 
-### Highlighter Settings
+## Highlighter Settings
 
 {{ site.highlighter | jsonify }}
 
-### Kramdown Settings
+## Kramdown Settings
 
 {{ site.kramdown | jsonify }}
 
-### GitHub Settings
+## GitHub Settings
 
 {{ site.github | jsonify }}
 
-### GitHub Pages Versions
+## GitHub Pages Versions
 
 {{ site.github.versions | jsonify }}
 
