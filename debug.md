@@ -2,20 +2,17 @@
 title: Debug
 ---
 
+### Markdown Settings
 
-## Site Settings
-
-{{ site | jsonify }}
-
-
-### Kramdown Settings
-
-{{ site.kramdown | jsonify }}
+{{ site.markdown | jsonify }}
 
 ### Highlighter Settings
 
 {{ site.highlighter | jsonify }}
 
+### Kramdown Settings
+
+{{ site.kramdown | jsonify }}
 
 ### GitHub Settings
 
