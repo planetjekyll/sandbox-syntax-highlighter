@@ -3,13 +3,13 @@
 
 title:   "Jekyll Syntax Highlighter Sandbox / Examples"
 author:
-  name:  "Henry's Themes Team"
+  name:  "Planet Jekyll Team"
 
 ## note: 
 #  use site.path in your templates to make it work for both protocols e.g. http and https
 #  use site.url only inside the web feed template (e.g. requires full url incl. protocol)
 path: /sandbox-syntax-highlighter
-url:  "http://henrythemes.github.io/sandbox-syntax-highlighter"
+url:  "http://planetjekyll.github.io/sandbox-syntax-highlighter"
 
 
 ########
