@@ -1,4 +1,4 @@
 
 syntax highlighter sandbox;
-see live examples @ [`henrythemes.github.io/sandbox-syntax-highlighter` »](http://henrythemes.github.io/sandbox-syntax-highlighter)
+see live examples @ [`planetjekyll.github.io/sandbox-syntax-highlighter` »](http://planetjekyll.github.io/sandbox-syntax-highlighter)
 
