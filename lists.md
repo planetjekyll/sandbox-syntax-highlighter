@@ -7,13 +7,13 @@ title: Code Blocks in Lists or Nested Lists
 
 <!-- update:
    [x] try without indentation (or less than 4 e.g. max 3)  - not working
-   [x] try with indentation min 1. max 3 
+   [x] try with indentation min 1. max 3   
    -->
 
 For discussion, see [issue #1](https://github.com/planetjekyll/sandbox-syntax-highlighter/issues/1).  Thanks to Thomas Leitner for clearing up the syntax.
 
 
-## Fenced code blocks inside ordered and unordered lists (V4)
+## Fenced code blocks inside ordered and unordered lists (V5)
 
 1. This is a numbered list.
 2. I'm going to include a fenced code block as part of this bullet:
@@ -30,61 +30,5 @@ For discussion, see [issue #1](https://github.com/planetjekyll/sandbox-syntax-hi
       printf("Hello, World!");
       ```
 
-   2. The key is to indent your fenced block by **(4 * bullet_indent_level + 3 max.)** spaces (e.g. max. 3 for level 1 and max. 7 for level 2 and so on.
+   2. The key is to indent your fenced block by **(3 max. + 4 * bullet_indent_level)** spaces (e.g. max. 3 for level 1 and max. 7 for level 2 and so on.
    3. Also need to put a separating newline above and below the fenced block.
-
-
----
-
-## Failed attempts:
-
-1. This is a bullet.
-2. This is the end of the first bullet list, with a fenced code block following:
-
-```
-Code
-More Code
-```
-
-3. This is the start of a new bullet list. Hey, where is my fenced code?
-
-```
-Code
-More Code
-```
-
-4. Maybe we can do it with indenting?
-
-    Code
-    More Code
-
-5. Did that work? No, so we will try with separation:
-
-    Code
-    More Code
-
-6. Now I will try more indenting, to match the bullet margin, plus 4:
-
-       Code
-       More Code
-
-7.  Well that was disappointing. How about we indent and use backticks together?
-
-       ```
-       Code
-       More Code
-       ```
-8. No such luck.
-
----
-
-* Oh look, it's some [Apache config](http://pygments.org/docs/lexers/#lexers-for-non-source-code-file-types):
-
-  ```apache
-  <Directory /foo/bar>
-   Order allow,deny
-   Deny from all
-  </Directory>
-  ```
-
-* Wasn't that fun?
