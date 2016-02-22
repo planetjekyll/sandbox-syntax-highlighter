@@ -70,7 +70,7 @@ Examples (edit: I replaced the leading spaces with dots e.g. `·` so it looks co
    3. Also need to put a separating newline above and below the fenced block.
 
 
-## More Example - Bulleted Lists
+## More Examples - Bulleted Lists
 
 * This is a bulleted list.
 * I'm going to include a fenced code block as part of this bullet:
