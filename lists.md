@@ -9,8 +9,10 @@ title: Code Blocks in Lists or Nested Lists
    try without indentation (or less than 4 e.g. max 3)
    -->
 
+For discussion, see [issue #1](https://github.com/planetjekyll/sandbox-syntax-highlighter/issues/1).  Thanks to Thomas Leitner for clearing up the syntax.
 
-## Fenced code blocks inside ordered and unordered lists
+
+## Fenced code blocks inside ordered and unordered lists (V2)
 
 1. This is a numbered list.
 2. I'm going to include a fenced code block as part of this bullet:
