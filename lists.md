@@ -19,17 +19,22 @@ by the column number of the first non-space character after the list item marker
 
 Examples (edit: I replaced the leading spaces with dots e.g. `·` so it looks correct):
 
-## Bulleted List
 
+**Bulleted List**
+
+```
 *·some text     =>  2 spaces indentation
 *···some text   =>  4 spaces indentation
+```
 
-## Numbered List
+**Numbered List**
 
+```
 1.·some text    =>  3 spaces indentation
-
+```
 
 **If you line up the code block with the natural list indentation, it will work.**
+
 
 
 ## Fenced code blocks inside ordered and unordered lists (V6)
