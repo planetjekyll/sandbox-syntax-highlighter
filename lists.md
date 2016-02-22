@@ -12,8 +12,46 @@ title: Code Blocks in Lists or Nested Lists
 
 For discussion, see [issue #1](https://github.com/planetjekyll/sandbox-syntax-highlighter/issues/1).  Thanks to Thomas Leitner for clearing up the syntax.
 
+**How it works**
 
-## Fenced code blocks inside ordered and unordered lists (V5)
+The gist is that the indentation for the code block in lists is determined
+by the column number of the first non-space character after the list item marker.
+
+Examples (edit: I replaced the leading spaces with dots e.g. `·` so it looks correct):
+
+## Bulleted List
+
+*·some text     =>  2 spaces indentation
+*···some text   =>  4 spaces indentation
+
+## Numbered List
+
+1.·some text    =>  3 spaces indentation
+
+
+**If you line up the code block with the natural list indentation, it will work.**
+
+
+## Fenced code blocks inside ordered and unordered lists (V6)
+
+
+## Github fenced code blocks
+
+1. Do step 1.
+2. Now do this:
+    
+   ```ruby
+   def print_hi(name)
+     puts "Hi, #{name}"
+   end
+   print_hi('Tom')
+   #=> prints 'Hi, Tom' to STDOUT.
+    ```
+        
+3. Now you can do this.
+
+
+## More Example
 
 1. This is a numbered list.
 2. I'm going to include a fenced code block as part of this bullet:
@@ -30,5 +68,12 @@ For discussion, see [issue #1](https://github.com/planetjekyll/sandbox-syntax-hi
       printf("Hello, World!");
       ```
 
-   2. The key is to indent your fenced block by **(3 max. + 4 * bullet_indent_level)** spaces (e.g. max. 3 for level 1 and max. 7 for level 2 and so on.
+   2. The key is to indent your fenced block lined up with the list item!.
    3. Also need to put a separating newline above and below the fenced block.
+
+
+## Full Explanation from the kramdown author
+
+
+
+
