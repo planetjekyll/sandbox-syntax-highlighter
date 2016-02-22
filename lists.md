@@ -5,14 +5,9 @@ title: Code Blocks in Lists or Nested Lists
 
 (Source: [gist.github.com/clintel/1155906](https://gist.github.com/clintel/1155906))
 
-<!-- update:
-   [x] try without indentation (or less than 4 e.g. max 3)  - not working
-   [x] try with indentation min 1. max 3   
-   -->
-
 For discussion, see [issue #1](https://github.com/planetjekyll/sandbox-syntax-highlighter/issues/1).  Thanks to Thomas Leitner for clearing up the syntax.
 
-## Fenced code blocks inside ordered and unordered lists (V6)
+## Fenced code blocks inside ordered and unordered lists (V7)
 
 **How it works**
 
@@ -25,20 +20,20 @@ Examples (edit: I replaced the leading spaces with dots e.g. `·` so it looks co
 **Bulleted List**
 
 ```
-*·some text     =>  2 spaces indentation
-*···some text   =>  4 spaces indentation
+*·some text     =>  use 2 spaces indentation
+*···some text   =>  use 4 spaces indentation
 ```
 
 **Numbered List**
 
 ```
-1.·some text    =>  3 spaces indentation
+1.·some text    =>  use 3 spaces indentation
 ```
 
-**==> If you line up the code block with the natural list indentation, it will work.**
+**==> If you line up the fenced code block with the "natural" list indentation, it will work.**
 
 
-## Github fenced code blocks
+## Github fenced code blocks - It works, no magic.
 
 1. Do step 1.
 2. Now do this:
