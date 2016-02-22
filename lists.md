@@ -7,7 +7,7 @@ title: Code Blocks in Lists or Nested Lists
 
 For discussion, see [issue #1](https://github.com/planetjekyll/sandbox-syntax-highlighter/issues/1).  Thanks to Thomas Leitner for clearing up the syntax.
 
-## Fenced code blocks inside ordered and unordered lists (V7)
+## Fenced code blocks inside ordered and unordered lists (V8)
 
 **How it works**
 
@@ -44,7 +44,7 @@ Examples (edit: I replaced the leading spaces with dots e.g. `·` so it looks co
    end
    print_hi('Tom')
    #=> prints 'Hi, Tom' to STDOUT.
-    ```
+   ```
         
 3. Now you can do this.
 
