@@ -13,7 +13,7 @@ title: Code Blocks in Lists or Nested Lists
 For discussion, see [issue #1](https://github.com/planetjekyll/sandbox-syntax-highlighter/issues/1).  Thanks to Thomas Leitner for clearing up the syntax.
 
 
-## Fenced code blocks inside ordered and unordered lists (V3)
+## Fenced code blocks inside ordered and unordered lists (V4)
 
 1. This is a numbered list.
 2. I'm going to include a fenced code block as part of this bullet:
@@ -26,12 +26,13 @@ For discussion, see [issue #1](https://github.com/planetjekyll/sandbox-syntax-hi
 3. We can put fenced code blocks inside nested bullets, too.
    1. Like this:
 
-   ```c
-   printf("Hello, World!");
-   ```
+      ```c
+      printf("Hello, World!");
+      ```
 
-   2. The key is to indent your fenced block by **(4 * bullet_indent_level)** spaces.
+   2. The key is to indent your fenced block by **(4 * bullet_indent_level + 3 max.)** spaces (e.g. max. 3 for level 1 and max. 7 for level 2 and so on.
    3. Also need to put a separating newline above and below the fenced block.
+
 
 ---
 
@@ -79,11 +80,11 @@ More Code
 
 * Oh look, it's some [Apache config](http://pygments.org/docs/lexers/#lexers-for-non-source-code-file-types):
 
-    ```apache
-    <Directory /foo/bar>
-      Order allow,deny
-      Deny from all
-    </Directory>
-    ```
+  ```apache
+  <Directory /foo/bar>
+   Order allow,deny
+   Deny from all
+  </Directory>
+  ```
 
 * Wasn't that fun?
