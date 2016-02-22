@@ -12,6 +12,8 @@ title: Code Blocks in Lists or Nested Lists
 
 For discussion, see [issue #1](https://github.com/planetjekyll/sandbox-syntax-highlighter/issues/1).  Thanks to Thomas Leitner for clearing up the syntax.
 
+## Fenced code blocks inside ordered and unordered lists (V6)
+
 **How it works**
 
 The gist is that the indentation for the code block in lists is determined
@@ -33,11 +35,7 @@ Examples (edit: I replaced the leading spaces with dots e.g. `·` so it looks co
 1.·some text    =>  3 spaces indentation
 ```
 
-**If you line up the code block with the natural list indentation, it will work.**
-
-
-
-## Fenced code blocks inside ordered and unordered lists (V6)
+**==> If you line up the code block with the natural list indentation, it will work.**
 
 
 ## Github fenced code blocks
@@ -56,7 +54,7 @@ Examples (edit: I replaced the leading spaces with dots e.g. `·` so it looks co
 3. Now you can do this.
 
 
-## More Example
+## More Examples - Numbered Lists
 
 1. This is a numbered list.
 2. I'm going to include a fenced code block as part of this bullet:
@@ -73,12 +71,27 @@ Examples (edit: I replaced the leading spaces with dots e.g. `·` so it looks co
       printf("Hello, World!");
       ```
 
-   2. The key is to indent your fenced block lined up with the list item!.
+   2. The key is to indent your fenced code block lined up with the list item.
    3. Also need to put a separating newline above and below the fenced block.
 
 
-## Full Explanation from the kramdown author
+## More Example - Bulleted Lists
 
+* This is a bulleted list.
+* I'm going to include a fenced code block as part of this bullet:
 
+  ```
+  Code
+  More Code
+  ```
 
+* We can put fenced code blocks inside nested bullets, too.
+  * Like this:
+
+    ```c
+    printf("Hello, World!");
+    ```
+
+ * The key is to indent your fenced code block lined up with the list item.
+ * Also need to put a separating newline above and below the fenced block.
 
