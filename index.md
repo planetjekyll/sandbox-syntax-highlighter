@@ -36,9 +36,9 @@ kramdown:
 
 For more info see the [Jekyll F.A.Q.](https://github.com/planetjekyll/quickrefs/blob/master/FAQ.md) entries:
 
-- Q: How can I get backtick fenced code blocks (e.g. \`\`\`) working (with kramdown)?
-- Q: How can I turn on syntax highlighting in code blocks (with kramdown 'n' rouge)?
-- Q: How can I turn off syntax highlighting in code blocks (with kramdown 'n' rouge)?
+- [Q: How can I get backtick fenced code blocks (e.g. \`\`\`) working (with kramdown)?](https://github.com/planetjekyll/quickrefs/blob/master/FAQ.md#q-how-can-i-get-backtick-fenced-code-blocks-eg--working-with-kramdown)
+- [Q: How can I turn on syntax highlighting in code blocks (with kramdown 'n' rouge)?](https://github.com/planetjekyll/quickrefs/blob/master/FAQ.md#q-how-can-i-turn-on-syntax-highlighting-in-code-blocks-with-kramdown-n-rouge)
+- [Q: How can I turn off syntax highlighting in code blocks (with kramdown 'n' rouge)?](https://github.com/planetjekyll/quickrefs/blob/master/FAQ.md#q-how-can-i-turn-off-syntax-highlighting-in-code-blocks-with-kramdown-n-rouge)
 
 **Jekyll Docu**
 
